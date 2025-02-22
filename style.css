@@ -10,6 +10,12 @@ body {
   background-color: #fff;
   width: 327px;
   border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 10px 10px rgb(0, 0, 0);
+
+  @media (min-width: 376px) {
+    width: 384px;
+  }
 }
 .container {
   display: flex;
@@ -44,6 +50,10 @@ body {
 .learning-tag {
   display: flex;
   align-items: flex-start;
+
+  @media (min-width: 376px) {
+    height: 29px;
+  }
 }
 .tag-container {
   padding: 4px 12px;
@@ -54,21 +64,41 @@ body {
 
   p {
     height: 18px;
+
+    @media (min-width: 376px) {
+      height: 21px;
+    }
+  }
+
+  @media (min-width: 376px) {
+    font-size: 14.5px;
   }
 }
 .date {
   font-size: 12px;
+
+  @media (min-width: 376px) {
+    font-size: 14px;
+  }
 }
 .date-wrapper {
   height: 24px;
 }
 .title {
   height: 24px;
+
+  @media (min-width: 376px) {
+    margin-bottom: 12px;
+  }
 }
 h1 {
   margin: 0;
   font-weight: 800;
   font-size: 20px;
+
+  @media (min-width: 376px) {
+    font-size: 24px;
+  }
 }
 p {
   margin:0;
@@ -78,6 +108,11 @@ p {
   height: 63px;
   font-size: 14px;
   color: hsl(0, 0%, 42%);
+
+  @media (min-width: 376px) {
+    height: 72px;
+    font-size: 16px;
+  }
 }
 .footer-content {
   display: flex;
@@ -93,5 +128,9 @@ p {
 
   p {
     font-size: 14px;
+
+    @media (min-width: 376px) {
+      font-size: 15px;
+    }
   }
 }
