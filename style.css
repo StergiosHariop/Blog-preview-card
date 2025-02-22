@@ -1,0 +1,97 @@
+body {
+  background-color: #F4D04E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Figtree", sans-serif;
+}
+.wrapper {
+  background-color: #fff;
+  width: 327px;
+  border-radius: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+}
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.img {
+  width: 100%;
+  height: 100%; 
+}
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+.footer-content {
+  display: flex;
+  align-items: flex-start;
+}
+.learning-tag {
+  display: flex;
+  align-items: flex-start;
+}
+.tag-container {
+  padding: 4px 12px;
+  background-color: #F4D04E;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 12.5px;
+
+  p {
+    height: 18px;
+  }
+}
+.date {
+  font-size: 12px;
+}
+.date-wrapper {
+  height: 24px;
+}
+.title {
+  height: 24px;
+}
+h1 {
+  margin: 0;
+  font-weight: 800;
+  font-size: 20px;
+}
+p {
+  margin:0;
+}
+
+.description {
+  height: 63px;
+  font-size: 14px;
+  color: hsl(0, 0%, 42%);
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: bold;
+
+  img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
